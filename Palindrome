@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Operations
+{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter first number:");
+        double a=sc.nextDouble();
+        System.out.println("Enter Second number:");
+        double b=sc.nextDouble();
+        
+        double sum=a+b;
+        System.out.println("Sum: "+sum);
+        double sub=a-b;
+        System.out.println("Subraction:"+sub);
+        double mul=a*b;
+        System.out.println("multiplication:"+mul);
+        double div=a/b;
+        System.out.println("Division:"+div);
+    }
+    
+}
